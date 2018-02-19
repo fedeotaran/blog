@@ -4,7 +4,7 @@ date: 2018-02-17T21:09:19Z
 draft: false
 ---
 
-I think it is a good idea for the first post explain how i build this site.
+I think it's a good idea for the first post explain how i build this site.
 It was built using [Hugo](https://gohugo.io/). Hugo is a very popular
 open-source static site generators.
 
@@ -26,9 +26,9 @@ you need to run `hugo` command.
     jguyomard/hugo-builder hugo new site new_site
 ```
 
-### Create repository with the initial files:
+### Create repository with the initial files
 
-Create repository on Github for you website code source [here](https://github.com/new).
+Create repository on Github for your website code source [here](https://github.com/new).
 
 Then create your local repository and add the remote:
 
@@ -52,7 +52,7 @@ Then clone the repository inside `themes` folder:
   git clone https://github.com/nishanths/cocoa-hugo-theme.git themes/cocoa
 ```
 
-If you want customize any theme, fork the repository and add as submodule:
+If you want to customize some theme, fork the repository and add it as submodule:
 
 ```bash
   git submodule add https://github.com/budparr/cocoa-hugo-theme.git \
@@ -86,5 +86,5 @@ Now visit `http://<your_ip_address>:1313/`
 > It's importat that the image profile exist on `img` folder with the correct
 > name for the server up correctly
 
-Finally if you want deploy your static webpage on github pages read
+Finally, if you want to deploy your static webpage on github pages read
 [this post](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
