@@ -85,3 +85,6 @@ Now visit `http://<your_ip_address>:1313/`
 
 > It's importat that the image profile exist on `img` folder with the correct
 > name for the server up correctly
+
+Finally if you want deploy your static webpage on github pages read
+[this post](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
