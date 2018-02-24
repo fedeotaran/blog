@@ -7,7 +7,7 @@ draft: false
 Biography
 =========
 
-My name is Federico Otaran and I'm Web Developer with almost 10 years of
+My name is Federico Otaran and I'm Web Developer with almost 7 years of
 experience. Since 4 years ago I have developed Web Applications with Ruby on
 Rails framework as Full-Stack Developer. Now I live in La Plata, BA where I
 studied Computer’s Science. I’m passionate about Computer’s Science and
