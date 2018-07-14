@@ -1,54 +1,49 @@
-baseurl             = "https://fedeotaran.github.io/"
-builddrafts         = false
-canonifyurls        = true
-contentdir          = "content"
-languageCode        = "en-US"
-layoutdir           = "layouts"
-publishdir          = "public"
-theme               = "cocoa"
-author              = "Fede Otaran"
-title               = "Fede Otaran"
-pygmentsuseclasses  = true
-disqusshortname     = "fedeotaran" # Comment out to disable Disqus.
-pluralizelisttitles = false
-googleAnalytics     = "UA-123-45"
+baseurl                = "https://fedeotaran.github.io/"
+builddrafts            = false
+canonifyurls           = true
+contentdir             = "content"
+languageCode           = "en-US"
+layoutdir              = "layouts"
+publishdir             = "public"
+theme                  = "cocoa"
+author                 = "Fede Otaran"
+title                  = "Fede Otaran"
+pygmentsuseclasses     = true
+disqusshortname        = "fedeotaran" # Comment out to disable Disqus.
+pluralizelisttitles    = false
+googleAnalytics        = "UA-123-45"
 
-[permalinks]
+[languages]
+[languages.en]
+[languages.en.permalinks]
 blog  = "blog/:slug/"
 
-[[menu.main]]
+[[languages.en.menu.main]]
 name                   = "Blog"
 weight                 = -120
 identifier             = "blog"
 url                    = "/blog/"
 
-[[menu.main]]
+[[languages.en.menu.main]]
 name                   = "About"
 weight                 = -110
 identifier             = "about"
 url                    = "/about/"
 
-#[[menu.main]]
-#name                   = "Code"
-#weight                 = -100
-#identifier             = "code"
-#url                    = "/code/"
-
-[params]
-include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
-latestpostscount       = 5                             # how many posts to display on the home page
-i18n_flags             = false                         # whether to display small country flags for available translations
-author                 = "Fede Otaran"
-cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+[languages.en.params]
 dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
 description            = "Don't panic"
+selfintro              = "Software Engineer"                            # appears in the site header when set to a non-empty string
 email                  = "otaran.federico@gmail.com"
 extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
 faviconfile            = "img/leaf.ico"
-lang                   = "en"
 noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
-selfintro              = "Software Engineer"                            # appears in the site header when set to a non-empty string
+latestpostscount       = 5                             # how many posts to display on the home page
+i18n_flags             = true                         # whether to display small country flags for available translation
+author                 = "Fede Otaran"
+cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
 twitter                = "//twitter.com/fedeotaran"
 github                 = "//github.com/fedeotaran"
 instagram              = "//instagram.com/fedeotaran"
@@ -70,5 +65,29 @@ gitalk_repo            = "your repo url"
 gitalk_owner           = "the owner of this repo"
 gitalk_admin           = ['a', 'list', 'of', 'administrator']
 
-avatar                 = "img/profile.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
-# gravatar             = ""                # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
+gravatar = "1589f567548c44d734c62976c1628e46"
+
+[languages.es]
+[languages.es.permalinks]
+blog  = "blog/:slug/"
+
+[[languages.es.menu.main]]
+name       = "Blog"
+weight     = -120
+identifier = "blog"
+url        = "/es/blog/"
+
+[[languages.es.menu.main]]
+name       = "Sobre mí"
+weight     = -110
+identifier = "about"
+url        = "/es/about/"
+
+[languages.es.params]
+selfintro = "Desarrollador de Software"
+gravatar  = "1589f567548c44d734c62976c1628e46"
+twitter                = "//twitter.com/fedeotaran"
+github                 = "//github.com/fedeotaran"
+instagram              = "//instagram.com/fedeotaran"
+linkedin               = "//linkedin.com/in/fedeotaran"
+email                  = "otaran.federito@gmail.com"
